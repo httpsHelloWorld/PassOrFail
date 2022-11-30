@@ -12,3 +12,4 @@ var userResult = document.getElementById('userResult');
 
 var quizEnd = document.getElementById('quizEnd');
 var userScore = document.getElementById('userScore');
+var userInitials = document.getElementById('userInitials');
