@@ -11,3 +11,4 @@ var buttonD = document.getElementById('choiceD');
 var userResult = document.getElementById('userResult');
 
 var quizEnd = document.getElementById('quizEnd');
+var userScore = document.getElementById('userScore');
