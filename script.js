@@ -16,3 +16,4 @@ var userInitials = document.getElementById('userInitials');
 var submitUserScoreButton = document.getElementById('submitUserScoreButton');
 
 var userScorePageComponents = document.getElementById('userScorePageComponents');
+var userScorePage = document.getElementById('userScorePage');
