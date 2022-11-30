@@ -7,3 +7,4 @@ var theQuestion = document.getElementById('theQuestion');
 var buttonA = document.getElementById('choiceA');
 var buttonB = document.getElementById('choiceB');
 var buttonC = document.getElementById('choiceC');
+var buttonD = document.getElementById('choiceD');
