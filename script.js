@@ -1,0 +1,1 @@
+var startingPage = document.getElementById('startingPage');
