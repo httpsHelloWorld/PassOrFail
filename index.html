@@ -29,7 +29,23 @@
             <input id="userInitials" name="userInitials" type="text" size="40" placeholder="Input initials here.">
             <button id="submitUserScoreButton">SUBMIT</button>
         </section>
+
+        <section id="userScorePageComponents">
+            <article id="userScorePage">
+                <header class="header">
+                    <h2>USER</h2>
+                    <h2>SCORE</h2>
+                </header>
+                <div id="userScorePageInitials"></div>
+                <div id="userScorePageScore"></div>
+            </article>
+            <article id="playAgain">
+                <button id="redoQuiz" onclick="takeAgain()">REDO</button>
+                <button id="resetUserScore" onclick="eraseUserScore()">RESET SCORE(S)</button>
+            </article>
+        </section>
     </main>
 </body>
 </html>
 
+<section id="userScorePageComponents"></section>
