@@ -13,6 +13,18 @@
             <button id="startingButton">BEGIN</button>
             <button id="startingUserScore" onclick="displayUserScore()">USER SCORE(S)</button>
         </section>
+
+        <section id="theQuiz">
+            <article id="remainingTime">REMAINING TIME: </article>
+            <article id="theQuestion"><p>Question</p></article>
+            <button id="choiceA" onclick="verifyAnswer('a')">A</button>
+            <button id="choiceB" onclick="verifyAnswer('b')">B</button>
+            <button id="choiceC" onclick="verifyAnswer('c')">C</button>
+            <button id="choiceD" onclick="verifyAnswer('d')">D</button>
+            <article id="userResult"></article>
+        </section>
     </main>
 </body>
 </html>
+
+<section id="theQuiz"></section>
