@@ -61,3 +61,5 @@ var theQuestions = [{
     choiceD:'console.log',
     correctAnswer:'A'
 }];
+
+var lastQuestion = theQuestions.length;
