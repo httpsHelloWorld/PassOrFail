@@ -69,3 +69,4 @@ var rightAnswer;
 var theUserScore = 0;
 
 var theCountdown = 100;
+var timeInterval;
