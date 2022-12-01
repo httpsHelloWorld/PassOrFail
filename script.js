@@ -67,3 +67,5 @@ var lastQuestion = theQuestions.length;
 var rightAnswer;
 
 var theUserScore = 0;
+
+var theCountdown = 100;
