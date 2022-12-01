@@ -62,4 +62,5 @@ var theQuestions = [{
     correctAnswer:'A'
 }];
 
+var presentQuestion = 0;
 var lastQuestion = theQuestions.length;
