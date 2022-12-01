@@ -84,3 +84,17 @@ function displayQuestion(){
     buttonD.innerHTML = thePresentQuestion.choiceD;
 };
 
+function beginQuiz(){
+    quizEnd.style.display = 'none';
+    startingPage.style.display = 'none';
+    displayQuestion();
+    timeInterval = setInterval(function(){
+        theCountdown--;
+        remainingTIme.textContent = 'REMAINING TIME: ' + theCountdown;
+        if(theCountdown === 0){
+            clearInterval(timeInterval);
+            displayScore();
+        };
+    },1000);
+    theQuiz.style.display = 'block';
+}
