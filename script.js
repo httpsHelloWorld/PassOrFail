@@ -19,3 +19,4 @@ var userScorePageComponents = document.getElementById('userScorePageComponents')
 var userScorePage = document.getElementById('userScorePage');
 var userScorePageInitials = document.getElementById('userScorePageInitials');
 var userScorePageScore = document.getElementById('userScorePageScore');
+var playAgain = document.getElementById('playAgain');
