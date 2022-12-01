@@ -97,4 +97,4 @@ function beginQuiz(){
         };
     },1000);
     theQuiz.style.display = 'block';
-}
+};
