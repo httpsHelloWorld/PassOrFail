@@ -70,3 +70,17 @@ var theUserScore = 0;
 
 var theCountdown = 100;
 var timeInterval;
+
+function displayQuestion(){
+    quizEnd.style.display = 'none';
+    if(presentQuestion === lastQuestion){
+        return revealScore();
+    };
+    var thePresentQuestion = theQuestions[presentQuestion];
+    theQuestion.innerHTML = '<p>' + thePresentQuestion.question + '</p>';
+    buttonA.innerHTML = thePresentQuestion.choiceA;
+    buttonB.innerHTML = thePresentQuestion.choiceB;
+    buttonC.innerHTML = thePresentQuestion.choiceC;
+    buttonD.innerHTML = thePresentQuestion.choiceD;
+};
+
