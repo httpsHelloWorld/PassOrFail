@@ -64,3 +64,4 @@ var theQuestions = [{
 
 var presentQuestion = 0;
 var lastQuestion = theQuestions.length;
+var rightAnswer;
