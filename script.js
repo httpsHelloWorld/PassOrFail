@@ -22,5 +22,42 @@ var userScorePageScore = document.getElementById('userScorePageScore');
 var playAgain = document.getElementById('playAgain');
 
 var theQuestions = [{
-    
-}]
+    question:'01: Which is NOT a frequently used data-type?',
+    choiceA:'strings',
+    choiceB:'booleans',
+    choiceC:'alerts',
+    choiceD:'numbers',
+    correctAnswer:'B'
+},
+{
+    question:'02: What are the conditions of if-else statements enclosed in?',
+    choiceA:'quotation marks',
+    choiceB:'curly brackets',
+    choiceC:'parentheses',
+    choiceD:'square brackets',
+    correctAnswer:'C'
+},
+{
+    question:'03: What can arrays store in JavaScript?',
+    choiceA:'numbers and strings',
+    choiceB:'other arrays',
+    choiceC:'booleans',
+    choiceD:'all of the above',
+    correctAnswer:'D'
+},
+{
+    question:'04: When being assigned to variables, what MUST string values be enclosed in?',
+    choiceA:'commas',
+    choiceB:'curly brackets',
+    choiceC:'quotation marks',
+    choiceD:'parentheses',
+    correctAnswer:'C'
+},
+{
+    question:'05: Which is an useful tool used during development and debugging for printing content to the debugger?',
+    choiceA:'JavaScript',
+    choiceB:'terminal/bash',
+    choiceC:'for loops',
+    choiceD:'console.log',
+    correctAnswer:'A'
+}];
