@@ -100,3 +100,11 @@ function beginQuiz(){
 };
 
 startingButton.addEventListener('click',beginQuiz);
+
+function revealScore(){
+    theQuiz.style.display = 'none';
+    quizEnd.style.display = 'flex';
+    clearInterval(timeInterval);
+    userInitials.value = '';
+    userScore.innerHTML = 'You answered ' + theUserScore + '/' + theQuestions.length + ' right!';
+};
