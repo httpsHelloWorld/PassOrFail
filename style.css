@@ -56,3 +56,10 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+#theQuestion{
+    width: 500px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgb(164, 235, 255);
+}
