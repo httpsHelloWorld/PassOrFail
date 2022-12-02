@@ -87,6 +87,10 @@ body{
     color: white;
 }
 
+#theQuiz button:hover{
+    background-color: rgb(255, 248, 171);
+}
+
 #choiceA{
     background-color: rgb(255, 192, 247);
 }
