@@ -167,3 +167,9 @@ function displayUserScore(){
     userScorePage.style.display = 'block';
     addUserScore();
 };
+
+function eraseUserScore(){
+    window.localStorage.clear();
+    userScorePageInitials.textContent = '';
+    userScorePageScore.textContent = '';
+};
