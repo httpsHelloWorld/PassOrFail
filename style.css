@@ -71,9 +71,11 @@ body{
 
 #theQuestion{
     width: 500px;
+    margin: auto;
     padding: 10px;
     border-radius: 25px;
     background-color: rgb(164, 235, 255);
+    text-align: center;
 }
 
 #theQuiz button{
