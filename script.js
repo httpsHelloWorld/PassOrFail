@@ -93,7 +93,7 @@ function beginQuiz(){
         remainingTIme.textContent = 'REMAINING TIME: ' + theCountdown;
         if(theCountdown === 0){
             clearInterval(timeInterval);
-            displayScore();
+            revealScore();
         };
     },1000);
     theQuiz.style.display = 'block';
@@ -158,4 +158,12 @@ function addUserScore(){
         userScorePageInitials.appendChild(userInitialsInput);
         userScorePageScore.appendChild(userScoreInput);
     };
+};
+
+function displayUserScore(){
+    startingPage.style.display = 'none';
+    quizEnd.style.display = 'none';
+    userScorePageComponents.style.display = 'flex';
+    userScorePage.style.display = 'block';
+    addUserScore();
 };
