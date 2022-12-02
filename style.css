@@ -187,6 +187,10 @@ body{
     display: flex;
 }
 
+#userScorePageInitials{
+    margin-right: 10px;
+}
+
 #playAgain button{
     padding: 10px;
     width: 300px;
