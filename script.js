@@ -173,3 +173,7 @@ function eraseUserScore(){
     userScorePageInitials.textContent = '';
     userScorePageScore.textContent = '';
 };
+
+function redoQuiz(){
+    userScorePageComponents
+}
