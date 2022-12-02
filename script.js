@@ -145,3 +145,17 @@ submitUserScoreButton.addEventListener('click',function userInput(){
         addUserScore();
     };
 });
+
+function addUserScore(){
+    userScorePageInitials.innerHTML = '';
+    userScorePageScore.innerHTML = '';
+    var theUserResult = JSON.parse(localStorage.getItem('storedUserScore')) || [];
+    for(i = 0; i < theUserResult.length; i++){
+        var userInitialsInput = document.createElement('li');
+        var userScoreInput = document.createElement('li');
+        userInitialsInput.textContent = theUserResult[i].name;
+        userScoreInput.textContent = theUserResult[i].result;
+        userScorePageInitials.appendChild(userInitialsInput);
+        userScorePageScore.appendChild(userScoreInput);
+    };
+};
