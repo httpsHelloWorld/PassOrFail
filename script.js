@@ -101,6 +101,22 @@ function beginQuiz(){
 
 startingButton.addEventListener('click',beginQuiz);
 
+function verifyAnswer(answer){
+    correct = theQuestions[presentQuestion].correctAnswer;
+    if(answer === correct && presentQuestion !== lastQuestion){
+        theUserScore++;
+        alert('CORRECT');
+        presentQuestion++
+        displayQuestion();
+    } else if(answer !== correct && presentQuestion !== lastQuestion){
+        alert('INCORRECT');
+        presentQuestion++;
+        displayQuestion()
+    } else{
+        revealScore();
+    };
+};
+
 function revealScore(){
     theQuiz.style.display = 'none';
     quizEnd.style.display = 'flex';
