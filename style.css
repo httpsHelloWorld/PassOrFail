@@ -170,3 +170,8 @@ body{
 #userScorePage header{
     display: flex;
 }
+
+#userScorePage li{
+    display: flex;
+    list-style: none;
+}
