@@ -181,4 +181,4 @@ function redoQuiz(){
     theCountdown = 100;
     theUserScore = 0;
     presentQuestion = 0
-};
+}; 
