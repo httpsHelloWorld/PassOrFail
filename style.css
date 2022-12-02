@@ -11,3 +11,16 @@ body{
     max-width: 80rem;
     margin: 0 auto;
 }
+
+#startingPage{
+    padding: 33px;
+    margin: 21px auto;
+    width: 700px; height: 350px;
+    border-radius: 25px;
+    background-color: rgb(164, 235, 255);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
