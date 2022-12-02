@@ -171,6 +171,10 @@ body{
     display: flex;
 }
 
+#h2User{
+    margin-right: 10px;
+}
+
 #userScorePage li{
     display: flex;
     list-style: none;
