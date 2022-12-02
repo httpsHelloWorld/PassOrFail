@@ -37,6 +37,6 @@ body{
     color: rgb(164, 235, 255);
 }
 
-#startingPage:hover{
+#startingPage button:hover{
     background-color: rgb(255, 248, 171);
 }
