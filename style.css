@@ -191,6 +191,10 @@ body{
     margin-right: 10px;
 }
 
+#userScorePageScore{
+    margin-left: 10px;
+}
+
 #playAgain button{
     padding: 10px;
     width: 300px;
