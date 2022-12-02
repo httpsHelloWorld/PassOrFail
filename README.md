@@ -4,8 +4,13 @@ Link: https://httpshelloworld.github.io/PassOrFail/
 
 ## How To Use
 
-<ol>
-</ol>
+<ul>
+<li>Click 'BEGIN' to begin the JavaScript Fundamentals Quiz.</li>
+<li>Click 'USER SCORE(S)' to view previous score(s).
+<li>To recieve score, you MUST input initials.</li>
+<li>Click 'RESET SCORE(S)' to reset score(s).</li>
+<li>Click 'REDO' to do the JavaScript Fundamentals Quiz again.</li>
+</ul>
 
 ## User Story
 
