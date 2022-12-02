@@ -96,7 +96,7 @@ function beginQuiz(){
             revealScore();
         };
     },1000);
-    theQuiz.style.display = 'block';
+    theQuiz.style.display = 'flex';
 };
 
 startingButton.addEventListener('click',beginQuiz);
