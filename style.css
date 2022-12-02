@@ -180,7 +180,6 @@ body{
 }
 
 #userScorePage li{
-    display: flex;
     list-style: none;
 }
 
