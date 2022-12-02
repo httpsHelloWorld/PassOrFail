@@ -145,3 +145,7 @@ body{
     background-color: white;
     color: rgb(164, 235, 255);
 }
+
+#quizEnd button:hover{
+    background-color: rgb(255, 248, 171);
+}
