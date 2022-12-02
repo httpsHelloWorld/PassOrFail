@@ -185,6 +185,7 @@ body{
 
 .userScoreDisplay{
     display: flex;
+    justify-content: space-between;
 }
 
 #userScorePageInitials{
