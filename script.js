@@ -124,3 +124,24 @@ function revealScore(){
     userInitials.value = '';
     userScore.innerHTML = 'You answered ' + theUserScore + '/' + theQuestions.length + ' right!';
 };
+
+submitUserScoreButton.addEventListener('click',function userInput(){
+    if(userInitials.value === ''){
+        alert('You MUST input initials to receive score.');
+        return false;
+    } else{
+        var storedUserScore = JSON.parse(localStorage.getItem('storedUserScore')) || [];
+        var presentUser = userInitials.value.trim();
+        var presentUserScore ={
+            name: presentUser,
+            result: theUserScore
+        };
+        quizEnd.style.display = 'none';
+        userScorePageComponents.style.display = 'flex';
+        userScorePage.style.display = 'block';
+        playAgain.style.display = 'flex';
+        storedUserScore.push(presentUserScore);
+        localStorage.setItem('storedUserScore',JSON.stringify(storedUserScore));
+        addUserScore();
+    };
+});
