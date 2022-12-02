@@ -76,6 +76,17 @@ body{
     background-color: rgb(164, 235, 255);
 }
 
+#theQuiz button{
+    padding: 10px;
+    width: 300px;
+    margin: 5px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 18px;
+    border-radius: 25px;
+    border-style: none;
+    color: white;
+}
+
 #choiceA{
     background-color: rgb(255, 192, 247);
 }
