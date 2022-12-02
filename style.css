@@ -184,6 +184,10 @@ body{
     list-style: none;
 }
 
+.userScoreDisplay{
+    display: flex;
+}
+
 #playAgain button{
     padding: 10px;
     width: 300px;
