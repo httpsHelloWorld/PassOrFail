@@ -175,5 +175,10 @@ function eraseUserScore(){
 };
 
 function redoQuiz(){
-    userScorePageComponents
-}
+    userScorePageComponents.style.display = 'none';
+    quizEnd.style.display = 'none';
+    startingPage.style.display = 'flex';
+    theCountdown = 100;
+    theUserScore = 0;
+    presentQuestion = 0
+};
