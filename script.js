@@ -174,7 +174,7 @@ function eraseUserScore(){
     userScorePageScore.textContent = '';
 };
 
-function redoQuiz(){
+function takeAgain(){
     userScorePageComponents.style.display = 'none';
     quizEnd.style.display = 'none';
     startingPage.style.display = 'flex';
