@@ -132,6 +132,7 @@ body{
     border-style: none;
     background-color: white;
     color: rgb(164, 235, 255);
+    text-align: center;
 }
 
 #quizEnd button{
