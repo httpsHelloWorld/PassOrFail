@@ -150,3 +150,19 @@ body{
 #quizEnd button:hover{
     background-color: rgb(255, 248, 171);
 }
+
+#userScorePageComponents{
+    padding: 33px;
+    margin: 21px auto;
+    width: 700px; height: 350px;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 13px;
+    border-color: rgb(164, 235, 255);
+    background-color: white;
+    color: rgb(164, 235, 255);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
