@@ -122,7 +122,7 @@ function revealScore(){
     quizEnd.style.display = 'flex';
     clearInterval(timeInterval);
     userInitials.value = '';
-    userScore.innerHTML = 'You answered ' + theUserScore + '/' + theQuestions.length + ' right!';
+    userScore.innerHTML = 'You answered ' + theUserScore + '/' + theQuestions.length + ' questions right!';
 };
 
 submitUserScoreButton.addEventListener('click',function userInput(){
