@@ -108,3 +108,16 @@ body{
 #choiceD{
     background-color: rgb(174, 255, 174);
 }
+
+#quizEnd{
+    padding: 33px;
+    margin: 21px auto;
+    width: 700px; height: 350px;
+    border-radius: 25px;
+    background-color: rgb(164, 235, 255);
+    color: white;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
